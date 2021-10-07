@@ -1,2 +1,2 @@
-# JAVAji
-These are my Solved Java Programs
+
+#These are my Solved Java Programs
