@@ -32,11 +32,12 @@ import java.util.Arrays;
 
 public class BubbleSort {
     public static void main(String[] args) {
-        int[] b={5,2,-6,-44,-22,-524,65,874,-1,1,2,5,33,44};
+        int[] b={9,4,5,1,11};
         bubble(b);
         System.out.println(Arrays.toString(b));
     }
     static void bubble(int[] a){
+        boolean swap=false;
         //The outer loop will run (n-1) times
         for(int i=a.length-1;i>=0;i--){
             //for each iteration the max will come at the last respective index
@@ -47,7 +48,9 @@ public class BubbleSort {
                     int temp=a[j+1];
                     a[j+1]=a[j];
                     a[j]=temp;
+                    swap=true;
                 }
+                if(swap==false)break;
             }
         }
     }
