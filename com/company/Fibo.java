@@ -6,14 +6,16 @@ public class Fibo {
     }
     static int fib(int n){
         int a=0,b=1,count=0;
-        int sum=0;//For returning the Fibonacci number.
+         int ans=0;
         while(count<n){
-            sum+=a+b;
+            int sum=0;
+           sum+=a+b;
             int temp=b;
             b=sum;
             a=temp;
             count++;
+            ans=b;
         }
-        return sum;
+        return ans;
     }
 }
