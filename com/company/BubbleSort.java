@@ -32,7 +32,7 @@ import java.util.Arrays;
 
 public class BubbleSort {
     public static void main(String[] args) {
-        int[] b={5,2,6,44,22,524,65,874,1,1,2,5,33,44};
+        int[] b={5,2,-6,-44,-22,-524,65,874,-1,1,2,5,33,44};
         bubble(b);
         System.out.println(Arrays.toString(b));
     }
