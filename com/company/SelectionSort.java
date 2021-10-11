@@ -22,8 +22,10 @@ public class SelectionSort {
         for (int i = x; i < y; i++) {
            
             if(max<z[i])max=z[i];
+
         }
         return max;
     }
+
 
 }
