@@ -19,6 +19,4 @@ public class MissingElement {
         }
         return l*(l-1)/2-sum;
     }
-
-
 }
