@@ -14,9 +14,7 @@ public class MissingElement {
     }
     public static int miss(int[] a) {
         int sum=0,l=a.length;
-        for (int i= 0; i < l; i++) {
-            sum+=a[i];
-        }
+        for (int i= 0; i < l; i++)sum+=a[i];
         return l*(l-1)/2-sum;
     }
 }
