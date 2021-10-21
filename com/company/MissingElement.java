@@ -7,7 +7,6 @@ public class MissingElement {
         Scanner sc=new Scanner(System.in);
         int[] b=new int[4];
         for(int i=0;i<4;i++){
-
             b[i]= sc.nextInt();
         }
         System.out.println(miss(b));
