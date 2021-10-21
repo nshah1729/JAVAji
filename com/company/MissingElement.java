@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class MissingElement {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        int[] a=new int[4];
+        int[] b=new int[4];
         for(int i=0;i<4;i++){
 
-            a[i]= sc.nextInt();
+            b[i]= sc.nextInt();
         }
-        System.out.println(miss(a));
+        System.out.println(miss(b));
     }
     public static int miss(int[] a) {
         int sum=0,l=a.length;
