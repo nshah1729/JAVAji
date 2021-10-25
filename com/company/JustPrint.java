@@ -8,5 +8,4 @@ public class JustPrint {
         String s=sc.nextLine();
         System.out.println(s);
     }
-
 }
