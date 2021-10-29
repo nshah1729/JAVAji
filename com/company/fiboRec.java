@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class fiboRec {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        int n=fibo(4);
+        int n=fibo(50);
         System.out.println(n);
     }
     static int fibo(int n){
