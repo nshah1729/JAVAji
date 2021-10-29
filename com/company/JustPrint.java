@@ -20,7 +20,7 @@ public class JustPrint {
 //        System.out.print("Nishant!");
 //    }
     static void p(int n){
-        if(n==5){
+        if(n==51){
             System.out.println(n);
             return;
         }
