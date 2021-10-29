@@ -9,7 +9,11 @@ public class fiboRec {
         System.out.println(fibo(n));
     }
     static int fibo(int n){
+
+        //Base Condition
         if(n<2)return n;
+
+        //Body
         return fibo(n-1)+fibo(n-2);
     }
 }
