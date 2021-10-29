@@ -1,11 +1,30 @@
 package com.company;
 
-import java.util.Scanner;
-
 public class JustPrint {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        String s=sc.nextLine();
-        System.out.println(s+" HelloHi");
+        p(1);
+    }
+//    static void m(){
+//        System.out.print("Hi ");
+//        m1();
+//    }static void m1(){
+//        System.out.print("my ");
+//        m2();
+//    }static void m2(){
+//        System.out.print("name ");
+//        m3();
+//    }static void m3(){
+//        System.out.print("is ");
+//        m4();
+//    }static void m4(){
+//        System.out.print("Nishant!");
+//    }
+    static void p(int n){
+        if(n==5){
+            System.out.println(n);
+            return;
+        }
+        System.out.println(n);
+            p(n+1);
     }
 }
