@@ -30,7 +30,7 @@ public class Calculator {
             else {
                 System.out.println("Enter a valid operator");
             }
-            if(ans!=0) System.out.println(ans);
+            if(ans!=0) System.out.println(ans+'\n');
         }
     }
 }
