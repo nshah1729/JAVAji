@@ -21,10 +21,12 @@ public class Calculator {
                 if(a=='*')ans=x*y;
                 if(a=='%')ans=x%y;
             }
-                else if(a=='x'||a=='X'){
+
+            else if(a=='x'||a=='X'){
                     System.out.println("The Operation is Terminated!");
                     break;
                 }
+
             else {
                 System.out.println("Enter a valid operator");
             }
