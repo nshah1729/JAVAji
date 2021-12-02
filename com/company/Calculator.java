@@ -16,16 +16,19 @@ public class Calculator {
                 int y=sc.nextInt();
                 System.out.println();
                 if(a=='+')ans=x+y;
-                if (a=='-')ans=x-y;
-                if (a=='/')ans=x/y;
-                if (a=='*')ans=x*y;
-                if (a=='%')ans=x%y;
-                else if(a=='x'||a=='X')break;
-                else {
-                    System.out.println("Enter a valid operator");
-                }
+                if(a=='-')ans=x-y;
+                if(a=='/')ans=x/y;
+                if(a=='*')ans=x*y;
+                if(a=='%')ans=x%y;
             }
-            System.out.println(ans);
+                else if(a=='x'||a=='X'){
+                    System.out.println("The Operation is Terminated!");
+                    break;
+                }
+            else {
+                System.out.println("Enter a valid operator");
+            }
+            if(ans!=0) System.out.println(ans);
         }
     }
 }
