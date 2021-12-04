@@ -14,6 +14,8 @@ public class EvenNoOfDigits {
             if(even(a[i]))k++;
         }
         System.out.println(k+" elements contains even number of Digits!");
+
+
     }
     static boolean even(int a){
         int dig=0;
@@ -23,3 +25,5 @@ public class EvenNoOfDigits {
         return dig%2==0;
     }
 }
+
+
