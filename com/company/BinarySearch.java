@@ -21,7 +21,7 @@ public class BinarySearch {
     static int search(int[] a,int target){
         int s=0,e=a.length-1;
 
-        while(s<e){
+        while(s<=e){
 
             int m=(s+e)/2;
 
