@@ -10,17 +10,17 @@ public class BubbleSort {
         bubble(a);
         System.out.println(Arrays.toString(a));
     }
-    static void bubble(int[] a){
+    static void bubble(int[] x){
         boolean isSwapped;
-        for (int i = 0; i < a.length; i++) {
+        for (int i = 0; i < x.length; i++) {
             isSwapped=false;
-            for (int j = 1; j < a.length - i; j++) {
+            for (int j = 1; j < x.length - i; j++) {
 
                 //Swapping
-                if(a[j]<a[j-1]){
-                    int temp=a[j];
-                    a[j]=a[j-1];
-                    a[j-1]=temp;
+                if(x[j]<x[j-1]){
+                    int temp=x[j];
+                    x[j]=x[j-1];
+                    x[j-1]=temp;
                     isSwapped=true;
                 }
             }
