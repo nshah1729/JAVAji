@@ -6,14 +6,14 @@ import java.util.*;
 public class BubbleSort {
     public static void main(String[] args) {
        Scanner sc=new Scanner(System.in);
-        int[] a={1,2,3,4,5};
+        int[] a={};
         bubble(a);
         System.out.println(Arrays.toString(a));
     }
     static void bubble(int[] a){
-        boolean swapped;
+        boolean isSwapped;
         for (int i = 0; i < a.length; i++) {
-            swapped=false;
+            isSwapped=false;
             for (int j = 1; j < a.length - i; j++) {
 
                 //Swapping
@@ -21,10 +21,10 @@ public class BubbleSort {
                     int temp=a[j];
                     a[j]=a[j-1];
                     a[j-1]=temp;
-                    swapped=true;
+                    isSwapped=true;
                 }
             }
-            if(!swapped)break;
+            if(!isSwapped)break;
         }
     }
 }
