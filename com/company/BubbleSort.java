@@ -1,57 +1,16 @@
-//package com.company;
-//
-//import java.util.Arrays;
-//
-//public class BubbleSort {
-//    public static void main(String[] args) {
-//        int[] b={5,2,6,7};
-//        bubble(b);
-//        System.out.println(Arrays.toString(b));
-//    }
-//    static void bubble(int[] a){
-//        //The outer loop will run (n-1) times
-//        for(int i=0;i<a.length;i++){
-//            //for each iteration the max will come at the last respective index
-//            for(int j=1;j<(a.length)-i;j++){
-//                //Swap if the item is les than the previous item
-//                if(a[j]<a[j-1]){
-//                    //Swap
-//                    int temp=a[j];
-//                    a[j]=a[j-1];
-//                    a[j-1]=temp;
-//                }
-//            }
-//        }
-//    }
-//}
-
-//👇👇👇Another WAY to do👇👇👇
 package com.company;
 
 import java.util.Arrays;
+import java.util.*;
 
 public class BubbleSort {
     public static void main(String[] args) {
-        int[] b={9,4,5,1,11};
-        bubble(b);
-        System.out.println(Arrays.toString(b));
-    }
-    static void bubble(int[] a){
-        boolean swap=false;
-        //The outer loop will run (n-1) times
-        for(int i=a.length-1;i>=0;i--){
-            //for each iteration the max will come at the last respective index
-            for(int j=0;j<i;j++){
-                //Swap if the item is les than the previous item
-                if(a[j+1]<a[j]){
-                    //Swap
-                    int temp=a[j+1];
-                    a[j+1]=a[j];
-                    a[j]=temp;
-                    swap=true;
-                }
-                if(swap==false)break;
-            }
+       Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the Array:");
+        int[] a=new int[10];
+        for (int i = 0; i < a.length; i++) {
+            a[i]= sc.nextInt();
         }
+
     }
 }
