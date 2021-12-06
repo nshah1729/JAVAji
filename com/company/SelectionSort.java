@@ -26,6 +26,4 @@ public class SelectionSort {
         }
         return max;
     }
-
-
 }
