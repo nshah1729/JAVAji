@@ -1,29 +1,16 @@
 package com.company;
 
+import java.util.Scanner;
+import java.util.*;
+
 public class SelectionSort {
     public static void main(String[] args) {
-
+        Scanner sc=new Scanner(System.in);
+        int[] a={634,234635,754,785,786,689,790,47};
+        select(a);
+        System.out.println(Arrays.toString(a));
     }
-    static void Select(int[] a){
-        for (int i = 0; i < a.length; i++) {
-            //find max item in remaining array and swap
-            for (int j = 0; j < a.length-i; j++) {
-              int max=getMax(a,i,a.length-i);
-              swap(a[j],max);
-            }
-        }
-    }
+    static void select(int[] a){
 
-    private static void swap(int i, int max) {
-    }
-
-    private static int getMax(int[] z,int x, int y) { 
-        int max=-111;
-        for (int i = x; i < y; i++) {
-           
-            if(max<z[i])max=z[i];
-
-        }
-        return max;
     }
 }

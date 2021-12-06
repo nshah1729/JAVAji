@@ -9,12 +9,15 @@ public class BubbleSort {
         int[] a={634,234635,754,785,786,689,790,47};
         int[] x={634,234635,754,785,786,689,790,47};
         int[] y={634,234635,754,785,786,689,790,47};
-        bubble(a);
-        bubblee(x);
-        bubbleee(y);
-        System.out.println(Arrays.toString(a));
-        System.out.println(Arrays.toString(x));
-        System.out.println(Arrays.toString(y));
+        int[] z={12,14,15,11,18};
+//        bubble(a);
+        bubbleee(z);
+//        bubblee(x);
+//        bubbleee(y);
+//        System.out.println(Arrays.toString(a));
+        System.out.println(Arrays.toString(z));
+//        System.out.println(Arrays.toString(x));
+//        System.out.println(Arrays.toString(y));
     }
     static void bubble(int[] x){
         boolean isSwapped;
