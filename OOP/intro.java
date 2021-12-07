@@ -32,3 +32,4 @@ class Student{
         this.marks=21;
     }
 }
+
