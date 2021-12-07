@@ -1,6 +1,4 @@
-package com.company;
-
-import java.util.*;
+package com.DSA;
 
 public class Main {
 

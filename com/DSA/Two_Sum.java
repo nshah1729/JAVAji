@@ -1,4 +1,4 @@
-package com.company;
+package com.DSA;
 
 import java.util.Arrays;
 

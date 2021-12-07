@@ -1,4 +1,4 @@
-package com.company;
+package com.DSA;
 
 public class JustPrint {
     public static void main(String[] args) {

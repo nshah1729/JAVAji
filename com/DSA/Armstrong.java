@@ -1,4 +1,4 @@
-package com.company;
+package com.DSA;
 //Printing Armstrong numbers between a range
 public class Armstrong {
     public static void main(String[] args) {
