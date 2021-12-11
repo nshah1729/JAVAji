@@ -12,6 +12,10 @@ public class intro {
 //        System.out.println(Nishant);
         Student rahul=new Student(21);
         System.out.println(rahul.name);
+
+    }
+   public static void message(){
+        System.out.println("This is awwesome");
     }
 }
 class Student{
