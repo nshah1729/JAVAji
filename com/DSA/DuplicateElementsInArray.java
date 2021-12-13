@@ -1,5 +1,6 @@
 package com.DSA;
-
+//Identify if the array contains Duplicate Elements of Array.
+//https://leetcode.com/problems/contains-duplicate/
 import java.util.Scanner;
 
 public class DuplicateElementsInArray {
