@@ -1,6 +1,8 @@
 package com.DSA;
 //Identify if the array contains Duplicate Elements of Array.
 //https://leetcode.com/problems/contains-duplicate/
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class DuplicateElementsInArray {
@@ -16,6 +18,9 @@ public class DuplicateElementsInArray {
         else{
             System.out.println("Duplicate nahin hain!");
         }
+        int[] b={1,2,3,4};
+        int[] c=runningSum(b);
+        System.out.println(Arrays.toString(c));
     }
 
      static boolean dup(int[] nums) {
@@ -30,5 +35,16 @@ public class DuplicateElementsInArray {
              }
          }
          return ans;
+    }
+    public static int[] runningSum(int[] nums) {
+        int[] ans=new int[nums.length];
+        for(int i=0;i<nums.length;i++){
+            int sum=0;
+            for(int j=0;j<=i;j++){
+                sum+=nums[j];
+            }
+            ans[i]=sum;
+        }
+        return ans;
     }
 }
