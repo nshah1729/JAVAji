@@ -7,7 +7,7 @@ public class SqaureRootUsingSearch {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter the number: ");
         int a= sc.nextInt();
-        if(find(a)!=-1) System.out.println( " Square "+find(a));
+        if(find(a)!=-1) System.out.println( " Square is: "+find(a));
     }
     public static int find(int a){
         if(a==1||a==0)return a;
