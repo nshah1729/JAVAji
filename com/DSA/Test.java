@@ -8,8 +8,9 @@ public class Test {
         String y=new String("Nishant");
         String a=new String("Nishant");
         String b=new String("Nishant");
-        System.out.println(a.equals(b));
-        System.out.println(p==q);
-        System.out.println(x==y);
+//        System.out.println(a.equals(b));
+//        System.out.println(p==q);
+//        System.out.println(x==y);
+        System.out.println(Arrays.toString(new int[]{1, 2, 3, 4}));
     }
 }
