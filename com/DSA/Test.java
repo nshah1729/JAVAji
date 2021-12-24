@@ -4,6 +4,8 @@ public class Test {
     public static void main(String[] args) {
         String p="Nishant";
         String q="Nishant";
+        String abc=null;
+        System.out.println(abc);
         String x=new String("Nishant");
         String y=new String("Nishant");
         String a=new String("Nishant");
