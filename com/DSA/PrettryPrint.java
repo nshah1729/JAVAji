@@ -11,6 +11,6 @@ public class PrettryPrint {
                 char chi = (char) ('a' + j);
                 str.append(chi);
             }
-        System.out.println(strk);
+        System.out.println(str);
         }
 }
