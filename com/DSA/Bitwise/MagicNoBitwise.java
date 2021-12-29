@@ -1,4 +1,4 @@
-package com.DSA;
+package com.DSA.Bitwise;
 
 import java.util.Scanner;
 
