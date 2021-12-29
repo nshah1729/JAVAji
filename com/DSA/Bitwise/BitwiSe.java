@@ -1,6 +1,6 @@
-package com.DSA;
+package com.DSA.Bitwise;
 
-public class Bitwise {
+public class BitwiSe {
     public static void main(String[] args) {
         int a=11;
         System.out.println(isOdd(a));
