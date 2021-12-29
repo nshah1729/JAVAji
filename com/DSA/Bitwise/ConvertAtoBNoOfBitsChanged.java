@@ -13,7 +13,7 @@ public class ConvertAtoBNoOfBitsChanged {
         int b= sc.nextInt();
         System.out.println("No of bits required to be changed is "+noOfBitsChanged(a,b));
     }
-
+    //Function to do the Task:
     private static int noOfBitsChanged(int a, int b) {
         int xor_value=a^b;
         int count=0;
