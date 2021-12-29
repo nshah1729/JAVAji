@@ -1,7 +1,6 @@
 package com.DSA.Bitwise;
 
 //In converting a-->b, we need to find how many bits are to be changed:
-
 import java.util.Scanner;
 
 public class ConvertAtoBNoOfBitsChanged {
