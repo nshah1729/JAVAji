@@ -1,6 +1,8 @@
-package com.DSA;
+package com.DSA.Bitwise;
 
 import java.util.Scanner;
+
+//Sum of nth Row in Pascal's Triangle
 
 public class SumOfNthRowInPascalTriangle {
     public static void main(String[] args) {
