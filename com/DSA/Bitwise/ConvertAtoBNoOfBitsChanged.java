@@ -18,7 +18,7 @@ public class ConvertAtoBNoOfBitsChanged {
         int count=0;
         while (xor_value>0){
             if((xor_value&1)==1)count++;
-            xor_value=xor_value>>1;
+            xor_value>>=1;
         }
         return count;
     }
