@@ -11,6 +11,7 @@ public class ConvertAtoBNoOfBitsChanged {
         System.out.print("Enter b: ");
         int b= sc.nextInt();
         System.out.println("No of bits required to be changed is "+noOfBitsChanged(a,b));
+        System.out.println(12/2);
     }
     //Function to do the Task:
     private static int noOfBitsChanged(int a, int b) {

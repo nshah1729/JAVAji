@@ -40,10 +40,11 @@ public class TwoDuplicateElementsInArray {
         for(int val:a){
             aXORb=aXORb^val;
         }
-        int rightMostSetBitMast=aXORb&(-aXORb);
+        int rightMostSetBitMask=aXORb&(-aXORb);
         for(int val:a){
 
         }
+        return new int[]{1,2};
     }
 
 }
