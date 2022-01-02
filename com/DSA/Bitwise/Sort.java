@@ -20,17 +20,16 @@ public class Sort {
     }
 
     private static int[] bubble(int[] a) {
-        for (int i = a.length-1; i >=0; i--) {
-            for (int j = 0; j < a.length-i; j++) {
-                if(a[j]>a[j+1])swap(a,j,j+1);
+        for (int j = 0; j <a.length-1; j++) {
+            for (int i = 0; i < a.length-j-1; i++) {
+                if(a[j]>a[j+1]) {
+                    int temp=a[j];
+                    a[j]=a[j+1];
+                    a[j]=temp;
+                }
             }
         }
         return a;
-    }
-    private static void swap(int[] a,int x,int y){
-        int temp=a[x];
-        a[x]=a[y];
-        a[y]=temp;
     }
 
 //    private static int[] selection(int[] a) {
