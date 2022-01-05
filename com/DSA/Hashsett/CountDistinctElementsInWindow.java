@@ -1,5 +1,6 @@
 package com.DSA.Hashsett;
 
+import java.util.HashMap;
 import java.util.HashSet;
 
 //Count the number of Distinct Elements  int the given Window
