@@ -13,5 +13,6 @@ public class chuchu {
             }
             if(count==1) System.out.print(a[i]+" ");
         }
+        System.out.println();
     }
 }
