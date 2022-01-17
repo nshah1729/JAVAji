@@ -16,8 +16,11 @@ public class HappyNo {
 
     private static boolean check(int n) {
         boolean flag=false;
+        int sum=0;
         while(n!=1){
-
+            int rem=n%10;
+          sum+=rem*rem;
+          n/=10;
         }
         return flag;
     }
