@@ -1,4 +1,4 @@
-package com.DSA.Bitwise.Kunal;
+package kk.BitWiseManipulation;
 //range for a-->b(both inclusive)
 import java.util.Scanner;
 
