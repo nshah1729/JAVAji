@@ -1,4 +1,4 @@
-package com.DSA.Bitwise.Kunal;
+package kk.BitWiseManipulation;
 //https://leetcode.com/problems/happy-number/
 
 import java.util.Scanner;
@@ -12,6 +12,7 @@ public class HappyNo {
         else{
             System.out.println("Not Happy No.");
         }
+
     }
 
     private static boolean check(int n) {
