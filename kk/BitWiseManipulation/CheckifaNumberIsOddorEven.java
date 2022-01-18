@@ -1,6 +1,5 @@
-package com.DSA.Bitwise.Kunal;
+package kk.BitWiseManipulation;
 
-import java.math.BigInteger;
 import java.util.Scanner;
 //Q1
 public class CheckifaNumberIsOddorEven {
