@@ -1,4 +1,4 @@
-package com.DSA.Bitwise.Kunal;
+package kk.BitWiseManipulation;
 
 public class aPowerb {
     public static void main(String[] args) {
