@@ -1,4 +1,4 @@
-package com.DSA.Bitwise.Kunal;
+package kk.BitWiseManipulation;
 
 import java.util.Scanner;
 
