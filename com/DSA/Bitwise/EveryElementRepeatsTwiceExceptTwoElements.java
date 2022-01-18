@@ -8,15 +8,15 @@ public class EveryElementRepeatsTwiceExceptTwoElements {
     public static void PrintUnique(int[] a){
         int XOR=0,XOR_1=0,XOR_2=0,count=0;
         for(int x:a){
-            XOR=XOR^x;
+            XOR=XOR^x;                   //Finding the XOR
         }
         while(XOR!=0){
             if((XOR&1)>0)break;
-            count++;
+            count++;                    //For finding the RSB
             XOR=XOR>>1;
         }
         for(int x:a){
-            if((x&(1<<count))!=0)XOR_1=XOR_1^x;
+            if((x&(1<<count))!=0)XOR_1=XOR_1^x;    //Checking and Bucketing each value
             else {
                 XOR_2=XOR_2^x;
             }
